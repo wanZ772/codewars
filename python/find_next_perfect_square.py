@@ -6,6 +6,7 @@ def find_next_square(sq):
         while sq % sqrt(sq) != 0:
             sq += 1
         return sq
+    
     return -1
 
 print(find_next_square(0))
